@@ -1,0 +1,254 @@
+[
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs006",
+    "log": {
+        "timestamp": "2025-03-24T17:48:44.946636",
+        "code": "def greet():\n    print('Hello')\ngreet()\ny = 10\nwhile x < 10:\n    x += 1\n    print(x)",
+        "event_type": "copy-paste"
+    }
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs006",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:48:44.946636",
+        "code": "def greet():\n    print('Hello')\ngreet()\ny = 10\nwhile x < 10:\n    x += 1\n    print(x)"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:52:51.051656",
+        "code": "def greet():\n    print('Hello')\ngreet()"
+    },
+    "event_type": "backspace",
+    "changes": "- 'y = 10'\n- 'while x < 10:'\n- '    x += 1'\n- '    print(x)'",
+    "time_taken_microseconds": 54.750009439885616
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs002",
+    "log": {
+        "timestamp": "2025-03-24T17:52:52.998165",
+        "code": "x = 0\nprint(x)",
+        "event_type": "keystroke"
+    }
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs003",
+    "log": {
+        "timestamp": "2025-03-24T17:52:53.979636",
+        "code": "def greet():\n    print('Hello')\ngreet()",
+        "event_type": "keystroke"
+    }
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs003",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:52:53.979636",
+        "code": "def greet():\n    print('Hello')\ngreet()"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:52:55.842255",
+        "code": "def greet():\n    print('Hello')\ngreet()\n# New comment"
+    },
+    "event_type": "keystroke",
+    "changes": "+ '# New comment'",
+    "time_taken_microseconds": 31.87498077750206
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs001",
+    "log": {
+        "timestamp": "2025-03-24T17:52:56.590876",
+        "code": "def greet():\n    print('Hello')\ngreet()",
+        "event_type": "backspace"
+    }
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs002",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:52:52.998165",
+        "code": "x = 0\nprint(x)"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:52:57.130730",
+        "code": "x = 0\nprint(x) + 5"
+    },
+    "event_type": "keystroke",
+    "changes": "- 'print(x)'\n+ 'print(x) + 5'",
+    "time_taken_microseconds": 111.54200183227658
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs010",
+    "log": {
+        "timestamp": "2025-03-24T17:52:58.012769",
+        "code": "def greet():\n    print('Hello')\ngreet()",
+        "event_type": "keystroke"
+    }
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs007",
+    "log": {
+        "timestamp": "2025-03-24T17:52:58.841929",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)",
+        "event_type": "backspace"
+    }
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs010",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:52:58.012769",
+        "code": "def greet():\n    print('Hello')\ngreet()"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:06.794825",
+        "code": "def greet():\n    print('Hello')\ngreet()\ndef square(n):\n    return n * n"
+    },
+    "event_type": "copy-paste",
+    "changes": "+ 'def square(n):'\n+ '    return n * n'",
+    "time_taken_microseconds": 92.04199886880815
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs004",
+    "log": {
+        "timestamp": "2025-03-24T17:53:07.296190",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)",
+        "event_type": "backspace"
+    }
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs007",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:52:58.841929",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:15.196044",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)\ndef square(n):\n    return n * n"
+    },
+    "event_type": "copy-paste",
+    "changes": "+ 'def square(n):'\n+ '    return n * n'",
+    "time_taken_microseconds": 58.12500603497028
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs007",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:53:15.196044",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)\ndef square(n):\n    return n * n"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:16.768642",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)\ndef square(n):\n    return n * n + 5"
+    },
+    "event_type": "keystroke",
+    "changes": "- '    return n * n'\n+ '    return n * n + 5'",
+    "time_taken_microseconds": 97.79102401807904
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs010",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:53:06.794825",
+        "code": "def greet():\n    print('Hello')\ngreet()\ndef square(n):\n    return n * n"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:24.354877",
+        "code": "def greet():\n    print('Hello')\ngreet()\ndef square(n):\n    return n * n\nfor j in range(5):\n    print(j * 2)"
+    },
+    "event_type": "copy-paste",
+    "changes": "+ 'for j in range(5):'\n+ '    print(j * 2)'",
+    "time_taken_microseconds": 100.9170082397759
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs009",
+    "log": {
+        "timestamp": "2025-03-24T17:53:25.648758",
+        "code": "x = 0\nprint(x)",
+        "event_type": "keystroke"
+    }
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs009",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:53:25.648758",
+        "code": "x = 0\nprint(x)"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:26.608632",
+        "code": "x = 0\nprint(x)\n# New comment"
+    },
+    "event_type": "keystroke",
+    "changes": "+ '# New comment'",
+    "time_taken_microseconds": 96.20800847187638
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs002",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:52:57.130730",
+        "code": "x = 0\nprint(x) + 5"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:34.314363",
+        "code": "x = 0\nprint(x) + 5\n# Calculate sum\nresult = sum([1, 2, 3])"
+    },
+    "event_type": "copy-paste",
+    "changes": "+ '# Calculate sum'\n+ 'result = sum([1, 2, 3])'",
+    "time_taken_microseconds": 80.41600813157856
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs007",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:53:16.768642",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)\ndef square(n):\n    return n * n + 5"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:36.304363",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)\ndef square(n):\n    return n * n + 5\nfor i in range(3):\n    print(i)"
+    },
+    "event_type": "keystroke",
+    "changes": "+ 'for i in range(3):'\n+ '    print(i)'",
+    "time_taken_microseconds": 76.62497228011489
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs006",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:52:51.051656",
+        "code": "def greet():\n    print('Hello')\ngreet()"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:36.832093",
+        "code": "def greet():\n    print('Hello')"
+    },
+    "event_type": "backspace",
+    "changes": "- 'greet()'",
+    "time_taken_microseconds": 17.24998583085835
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs009",
+    "previous_log": {
+        "timestamp": "2025-03-24T17:53:26.608632",
+        "code": "x = 0\nprint(x)\n# New comment"
+    },
+    "current_log": {
+        "timestamp": "2025-03-24T17:53:42.163692",
+        "code": "x = 0\nprint(x)\n# New comment\ndef square(n):\n    return n * n"
+    },
+    "event_type": "copy-paste",
+    "changes": "+ 'def square(n):'\n+ '    return n * n'",
+    "time_taken_microseconds": 28.583017410710454
+}
+]

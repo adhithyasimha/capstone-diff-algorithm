@@ -1,0 +1,62 @@
+[
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs007",
+    "log": {
+        "timestamp": "2025-03-25T11:45:09.529105",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)",
+        "event_type": "copy-paste"
+    }
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs002",
+    "log": {
+        "timestamp": "2025-03-25T11:45:10.412051",
+        "code": "def greet():\n    print('Hello')\ngreet()",
+        "event_type": "keystroke"
+    }
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs010",
+    "log": {
+        "timestamp": "2025-03-25T11:45:10.765260",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)",
+        "event_type": "backspace"
+    }
+},
+{
+    "type": "change",
+    "student_id": "pes2ug22cs007",
+    "previous_log": {
+        "timestamp": "2025-03-25T11:45:09.529105",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)"
+    },
+    "current_log": {
+        "timestamp": "2025-03-25T11:45:16.106390",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)\nwhile x < 10:\n    x += 1\n    print(x)"
+    },
+    "event_type": "copy-paste",
+    "changes": "- 'numbers = [1, 2, 3]'\n- 'print(numbers)'",
+    "time_taken_microseconds": 74.74998710677028
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs009",
+    "log": {
+        "timestamp": "2025-03-25T11:45:17.016913",
+        "code": "def greet():\n    print('Hello')\ngreet()",
+        "event_type": "backspace"
+    }
+},
+{
+    "type": "first_log",
+    "student_id": "pes2ug22cs004",
+    "log": {
+        "timestamp": "2025-03-25T11:45:23.780663",
+        "code": "numbers = [1, 2, 3]\nprint(numbers)",
+        "event_type": "copy-paste"
+    }
+}
+]

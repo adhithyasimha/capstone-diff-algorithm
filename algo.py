@@ -1,6 +1,5 @@
 from typing import List, Tuple, Dict, Optional
 
-# # Constants from the C code
 XDL_MAX_COST_MIN = 256
 XDL_HEUR_MIN_COST = 256
 XDL_SNAKE_CNT = 20

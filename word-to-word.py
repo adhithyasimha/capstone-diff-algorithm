@@ -1,9 +1,6 @@
 import time
 def myers_diff(a, b):
-    """
-    Implements Myers' diff algorithm to find the shortest edit script between two lists.
-    Returns a list of operations (insert, delete, Same) to transform list a into list b.
-    """
+
     # Split sentences into words
     a = a.split()
     b = b.split()
@@ -39,9 +36,6 @@ def myers_diff(a, b):
     return []  # Should never reach here
 
 def backtrack(a, b, trace, d):
-    """
-    Backtrack through the edit graph to find the edit script.
-    """
     x, y = len(a), len(b)
     edit_script = []
 
